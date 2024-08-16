@@ -41,7 +41,7 @@ console.log(foundBook?.length) */
 // colors.push(false)
 
 // objects in typescript
-let car: { brand: string; year: number } = { brand: 'Toyota', year: 1978 }
+/* let car: { brand: string; year: number } = { brand: 'Toyota', year: 1978 }
 
 car.brand = 'ford'
 // car.color = 'blue'; // causing error
@@ -63,6 +63,12 @@ let items2: { title: string; cost?: number }[] = [book, pen, noteBook] // settin
 // console.log(itemms2)
 
 // setting up readonly properties for objects
-let items3: { readonly title: string; cost?: number }[] = [book, pen, noteBook] // setting up an optional property;
+let items3: { readonly title: string; cost?: number }[] = [book, pen, noteBook] // setting up an optional property; */
 
 // items3[0].title = 'new Book';    // typescript error;
+
+let bike: { brand: string; year: number } = { brand: 'yamaha', year: 2010 }
+
+let laptop: { brand: string; year: number } = { brand: 'lenovo', year: 2024 }
+
+// laptop.year = 'new'
