@@ -67,8 +67,10 @@ let items3: { readonly title: string; cost?: number }[] = [book, pen, noteBook] 
 
 // items3[0].title = 'new Book';    // typescript error;
 
-let bike: { brand: string; year: number } = { brand: 'yamaha', year: 2010 }
+// let bike: { brand: string; year: number } = { brand: 'yamaha', year: 2010 }
 
-let laptop: { brand: string; year: number } = { brand: 'lenovo', year: 2024 }
+// let laptop: { brand: string; year: number } = { brand: 'lenovo', year: 2024 }
 
 // laptop.year = 'new'
+
+// simple app counter
